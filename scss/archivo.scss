@@ -223,6 +223,21 @@ table {
   margin: 2rem;
   color: rgb(82, 90, 105);
 }
+main {
+  text-align: center;
+}
+main h2 {
+  margin-bottom: 1.5rem;
+}
+main p {
+  margin-bottom: 2rem;
+}
+main .servicios .servicio {
+  padding: 1rem 1.5rem;
+}
+main .servicios .servicio img {
+  margin-bottom: 1rem;
+}
 @each $color, $name in $colors {
     .background-#{$color} {
         background-color: $name;

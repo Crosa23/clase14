@@ -284,6 +284,26 @@ table {
   color: #525a69;
 }
 
+main {
+  text-align: center;
+}
+
+main h2 {
+  margin-bottom: 1.5rem;
+}
+
+main p {
+  margin-bottom: 2rem;
+}
+
+main .servicios .servicio {
+  padding: 1rem 1.5rem;
+}
+
+main .servicios .servicio img {
+  margin-bottom: 1rem;
+}
+
 .background-blue {
   background-color: #5c8d69;
 }
