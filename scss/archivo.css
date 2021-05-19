@@ -78,12 +78,17 @@ p {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
+header {
+  position: relative;
+}
+
 .nav__banner {
-  background-image: url("../Img/lOGO FEDE.png");
-  background-repeat: no-repeat;
-  background-size: 600px;
-  background-position: top center;
-  line-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .inicio {
@@ -96,10 +101,9 @@ p {
 }
 
 .nav__iconos {
-  font-size: 35px;
-  margin-bottom: 80px;
-  size: 15px;
-  text-align: right;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
 }
 
 .navbar {

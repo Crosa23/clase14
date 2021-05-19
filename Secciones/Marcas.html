@@ -10,7 +10,9 @@
    <link rel="stylesheet" href="../scss/archivo.css">
 </head>
 <body>
-   <nav class="nav__banner">
+   <div class="nav__banner">
+      <img src="../Img/logo!.png"  alt="foto">
+   </div>
             <div class="nav__iconos">
                <a href="https://es-la.facebook.com/pages/category/Automotive-Parts-Store/Crosa-repuestos-automotor-577223155762077/"><img src="../Img/facebook-.png" width="40" height="40" alt=""></a>
                <a href="https://www.instagram.com/repuestos_crosa/"><img src="../Img/instagram-.png" width="40" height="40" alt=""></a>
@@ -36,10 +38,10 @@
                      Marcas
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                     <li><a class="dropdown-item" href="Marcas.html">Marcas trabajadas</a></li>
-                     <li><a class="dropdown-item" href="Marcas.html">Comparaciones</a></li>
+                     <li><a class="dropdown-item" href="Marcas.html#marcas">Marcas trabajadas</a></li>
+                     <li><a class="dropdown-item" href="Marcas.html#comparacion">Comparaciones</a></li>
                      <li><hr class="dropdown-divider"></li>
-                     <li><a class="dropdown-item" href="Marcas.html">Metodos de Pago</a></li>
+                     <li><a class="dropdown-item" href="Marcas.html#pagos">Metodos de Pago</a></li>
                   </ul>
                </li>
                <li class="nav-item">
@@ -49,11 +51,10 @@
       </div>
    </div>
 </nav>
-</nav>
-<h2 class="titulo">Marcas principales con las que trabajamos</h2>
+<h2 id="marcas"  class="titulo">Marcas principales con las que trabajamos</h2>
 <img src="../Img/marcas-repuestos.jpg" width="100%" alt="marcas-repuestos">
 <table border="2" cellpadding="1" cellspacing="2">
-   <tr class="fondonegro">
+   <tr id="comparacion" class="fondonegro">
       <th>                         </th>
       <th>Crosa Repuestos</th>
       <th>Cualquier Otra casa de repuestos</th>
@@ -84,7 +85,7 @@
       <td class="error">X</td>
    </tr>
 </table>
-<h2 class="titulo">METODOS DE PAGO</h2>
+<h2 id="pagos" class="titulo">METODOS DE PAGO</h2>
 <marquee behavior="alternate" direction="">
    <ul>
       <li>EFECTIVO</li>
