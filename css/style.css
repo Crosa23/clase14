@@ -6,39 +6,36 @@ body {
   color: #6b6e6e;
   text-align: left;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   text-decoration: none;
   font-style: normal;
   font-size: 20px;
   font-family: "PT Sans Narrow", sans-serif;
   text-transform: uppercase;
-  margin-top: 10px;
   margin-bottom: 10px; }
 
 .servicios__titulo {
   color: #6b6e6e;
   text-align: left;
   margin: 0;
-  padding: 0;
+  padding: 1rem;
   text-decoration: none;
   font-style: normal;
   font-size: 20px;
   font-family: "PT Sans Narrow", sans-serif;
   text-transform: uppercase;
-  margin-top: 10px;
   margin-bottom: 10px; }
 
 .hojas__titulo {
   color: #6b6e6e;
   text-align: left;
   margin: 0;
-  padding: 1;
+  padding: 1rem;
   text-decoration: none;
   font-style: normal;
   font-size: 20px;
   font-family: "PT Sans Narrow", sans-serif;
   text-transform: uppercase;
-  margin-top: 10px;
   margin-bottom: 10px; }
 
 .empresa__titulo {
