@@ -1,0 +1,409 @@
+body {
+  background-image: linear-gradient(rgba(230, 240, 255, 0.5), rgba(217, 217, 217, 0.5)); }
+
+/*VARIABLES*/
+.titulo {
+  color: #6b6e6e;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.servicios__titulo {
+  color: #6b6e6e;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.hojas__titulo {
+  color: #6b6e6e;
+  text-align: left;
+  margin: 0;
+  padding: 1;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+.empresa__titulo {
+  color: #6b6e6e;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-style: normal;
+  font-size: 20px;
+  font-family: "PT Sans Narrow", sans-serif;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px; }
+
+p {
+  color: black; }
+
+.carousel-control-prev-icon {
+  left: 0;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important; }
+
+.carousel-control-next-icon {
+  right: 0;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important; }
+
+.nav__banner {
+  background-image: url("../Img/lOGO FEDE.png");
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: top center;
+  line-height: 50px; }
+
+.inicio {
+  display: flex;
+  justify-content: space-between; }
+
+.nav__iconos {
+  font-size: 35px;
+  margin-bottom: 80px;
+  size: 15px;
+  text-align: right; }
+
+.navbar {
+  background-color: rgba(230, 240, 255, 0.5); }
+
+ul.navbar-nav {
+  flex-grow: 1; }
+
+ul.barra li a {
+  text-decoration: none;
+  color: #7a7d7d; }
+
+.carousel-inner {
+  width: 100%;
+  height: 50%; }
+
+.carousel-item {
+  width: 100%;
+  height: 50%; }
+
+.hojas {
+  min-height: 70vh;
+  margin-top: 45px; }
+
+.principal__textoGrande {
+  display: flex;
+  overflow: visible;
+  margin-top: 50px; }
+
+.parrafoGrande {
+  color: #525a69;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+  transform: skew(10deg); }
+
+.principal__parrafoGrande1 {
+  color: #525a69;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+  flex-wrap: wrap; }
+
+#grilla {
+  display: grid;
+  grid-template-areas: "article header header"; }
+
+header {
+  grid-area: header; }
+
+article {
+  grid-area: article; }
+
+.borde {
+  color: #525a69;
+  line-height: 1.6;
+  font-size: 19px;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif; }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 10px; }
+
+li {
+  content: "\2022";
+  padding-right: 8px;
+  color: #525a69;
+  list-style-type: none;
+  list-style-position: inside; }
+
+table {
+  color: #525a69; }
+
+.fondonegro {
+  border-color: white;
+  font-family: 'Roboto', sans-serif; }
+
+.enviar {
+  text-align: center; }
+
+.ubicacion {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  color: black;
+  font-family: 'Roboto', sans-serif; }
+
+.servicios__servicios {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 2rem;
+  color: #525a69;
+  font-family: 'Roboto', sans-serif; }
+
+.servicios__rectangulo {
+  display: flex;
+  align-items: center;
+  border: 1px solid #333;
+  padding: 1rem;
+  box-shadow: 10px 10px grey;
+  word-wrap: break-word;
+  width: 400px;
+  height: 200px; }
+
+.servicios__servicio:hover {
+  text-align: center;
+  padding: 1rem;
+  color: blue;
+  transform: translate(10px); }
+
+.servicios__serviciosComunitarios {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  margin: 2rem;
+  color: #525a69; }
+
+.background-blue {
+  background-color: #8bc79b; }
+
+.background-red {
+  background-color: #b41616; }
+
+.background-orange {
+  background-color: #bb7f11; }
+
+.background-pink {
+  background-color: #eb65db; }
+
+.background-lightblue {
+  background-color: #76c5cc; }
+
+.background-blue {
+  background-color: #8bc79b; }
+
+.background-red {
+  background-color: #b41616; }
+
+.background-orange {
+  background-color: #bb7f11; }
+
+.background-pink {
+  background-color: #eb65db; }
+
+.background-lightblue {
+  background-color: #76c5cc; }
+
+h2 {
+  animation-duration: 5s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+.tabla {
+  border-collapse: collapse; }
+
+td {
+  height: 50px;
+  width: 1310px;
+  text-align: center; }
+
+.tilde:hover {
+  background-color: green;
+  color: black; }
+
+.error:hover {
+  background-color: red;
+  color: black; }
+
+.botonEnviar {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  color: #000000;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: transparent;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #000000; }
+
+img {
+  border-radius: 20px; }
+
+.contenedor {
+  position: relative;
+  display: inline-block;
+  text-align: center; }
+
+.textoEncima {
+  position: absolute;
+  top: 10px;
+  left: 10px; }
+
+@media only screen and (max-width: 768px) {
+  .textoGrande {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px; }
+  .parrafoGrande1 {
+    color: #525a69;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px; }
+  .imagen {
+    width: 700px;
+    height: 350px; }
+  #grilla {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .border {
+    color: #525a69;
+    line-height: 1.6;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif; }
+  .servicio {
+    text-align: center; }
+  .rectangulo {
+    margin-top: 10px; }
+  iframe {
+    width: 700px;
+    height: 350px; } }
+
+@media only screen and (max-width: 425px) {
+  .textoGrande {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px; }
+  .parrafoGrande1 {
+    color: #525a69;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px; }
+  .imagen {
+    width: 400px;
+    height: 250px; }
+  #grilla {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .border {
+    color: #525a69;
+    line-height: 1.6;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif; }
+  .servicios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .rectangulo {
+    height: 100px;
+    box-shadow: none;
+    max-width: none;
+    margin-top: 5px; }
+  .servicio {
+    justify-content: space-between;
+    font-size: 10px; }
+  .serviciosComunitarios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  iframe {
+    width: 400px;
+    height: 250px; } }
+
+@media only screen and (max-width: 320px) {
+  .textoGrande {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px; }
+  .parrafoGrande1 {
+    color: #525a69;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px; }
+  .imagen {
+    width: 300px;
+    height: 250px; }
+  #grilla {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .border {
+    color: #525a69;
+    line-height: 1.6;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif; }
+  .servicios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  .rectangulo {
+    height: 100px;
+    box-shadow: none;
+    max-width: none;
+    margin-top: 10px; }
+  .servicio {
+    justify-content: space-between;
+    font-size: 10px; }
+  .serviciosComunitarios {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; }
+  iframe {
+    width: 300px;
+    height: 250px; } }
