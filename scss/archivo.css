@@ -373,26 +373,6 @@ h2 {
   }
 }
 
-.tabla {
-  border-collapse: collapse;
-}
-
-td {
-  height: 50px;
-  width: 1310px;
-  text-align: center;
-}
-
-.tilde:hover {
-  background-color: green;
-  color: black;
-}
-
-.error:hover {
-  background-color: red;
-  color: black;
-}
-
 .botonEnviar {
   text-decoration: none;
   font-weight: 600;
