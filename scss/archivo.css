@@ -424,6 +424,19 @@ img {
   left: 10px;
 }
 
+table {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+table i.fa-check-circle {
+  color: #28a745;
+}
+
+table i.fa-times-circle {
+  color: #dc3545;
+}
+
 @media only screen and (max-width: 768px) {
   .textoGrande {
     -webkit-box-orient: vertical;
