@@ -140,6 +140,8 @@ ul.barra li a {
   font-family: 'Roboto', sans-serif;
   margin-left: 20px;
   flex-wrap: wrap;
+  display: flex;
+  align-items: center;
 }
 #grilla{
   display: grid;
